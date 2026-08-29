@@ -1,0 +1,4 @@
+// 複数モジュールで共通して使う独自クラス(Tailwindのユーティリティでは表現しないもの)
+.highlight-mark {
+  background-image: linear-gradient(transparent 60%, rgba(198, 93, 59, 0.2) 0);
+}

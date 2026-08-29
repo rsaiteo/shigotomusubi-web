@@ -1,0 +1,12 @@
+/*
+Theme Name: 京都しごとむすび
+Theme URI: https://shigotomusubi.jp/
+Author: 京都WORKS LAB
+Description: 京都しごとむすび コーポレートサイト用WordPressテーマ。Tailwind CSSでビルド済みのCSSを css/output.css として読み込みます。
+Version: 1.0.0
+Text Domain: shigotomusubi
+*/
+
+/* 実際のスタイルは css/output.css (Tailwind CSSのビルド済みファイル) を
+   functions.php から読み込んでいます。このファイルはWordPressの
+   テーマ認識用ヘッダーコメントのために存在します。 */

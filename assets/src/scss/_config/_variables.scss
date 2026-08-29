@@ -1,0 +1,20 @@
+// Tailwindのtheme.extend.colors / fontFamily (tailwind.config.js) と値を揃えること
+$color-brand: #922616;
+$color-ink: #1c1714;
+$color-body: #44474e;
+$color-cream: #fbf8f2;
+$color-paper: #fdfaf5;
+$color-card: #fdfcfb;
+$color-beige: #e8e0d2;
+$color-beigelight: #f5f0e8;
+$color-footerdark: #1e1e1e;
+
+$font-serif: '"Noto Serif JP"', serif;
+$font-sans: '"Noto Sans JP"', '"Yu Gothic"', '"Hiragino Sans"', sans-serif;
+$font-yu: '"Yu Gothic"', '"Noto Sans JP"', '"Hiragino Sans"', sans-serif;
+$font-roboto: '"Roboto"', sans-serif;
+
+// Tailwindの既定ブレークポイントと揃えること(sm/md/lg)
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;

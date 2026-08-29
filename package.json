@@ -1,0 +1,20 @@
+{
+  "name": "shigotomusubi-theme",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "run-p build:*",
+    "dev": "run-p dev:*",
+    "build:tailwind": "tailwindcss -i ./assets/src/css/tailwind.css -o ./css/output.css --minify",
+    "dev:tailwind": "tailwindcss -i ./assets/src/css/tailwind.css -o ./css/output.css --watch",
+    "build:sass": "sass assets/src/scss/:css --no-source-map --style compressed",
+    "dev:sass": "sass --watch assets/src/scss/:css --style compressed"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.49",
+    "sass": "^1.83.0",
+    "tailwindcss": "^3.4.19"
+  }
+}
