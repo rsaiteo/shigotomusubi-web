@@ -111,11 +111,20 @@
     }
   }
 
-  // 「入力→確認」で2ボタンを横並びにする際、均等幅にする
-  .flex.flex-col.sm\:flex-row > .cf7-submit,
-  .flex.flex-col.sm\:flex-row > .cf7-btn-outline {
-    flex: 1 1 0%;
-    width: auto;
+  // 確認画面の「戻る/送信する」を横並びにする際、均等幅にする
+  // (CF7のwpautopがボタンを<p>でラップするため、直接の子要素とは限らない)
+  .flex.flex-row {
+    > p {
+      display: flex;
+      gap: inherit;
+      width: 100%;
+    }
+
+    .cf7-submit,
+    .cf7-btn-outline {
+      flex: 1 1 0%;
+      width: auto;
+    }
   }
 
   .wpcf7-response-output {
