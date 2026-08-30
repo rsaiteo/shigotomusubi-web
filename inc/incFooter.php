@@ -25,7 +25,7 @@
           <a href="<?php echo esc_url(home_url('/')); ?>#supporter" class="hover:text-white transition-colors">サポーター</a>
           <a href="<?php echo esc_url(home_url('/')); ?>#flow" class="hover:text-white transition-colors">ご縁を結ぶまでの流れ</a>
         </nav>
-        <a href="#" target="_blank" rel="noopener" class="bg-[#ddd] rounded-full flex items-center gap-3 pl-4 pr-6 py-2.5 hover:opacity-90 transition-opacity">
+        <a href="https://kyoto-workslab.co.jp/" target="_blank" rel="noopener" class="bg-[#ddd] rounded-full flex items-center gap-3 pl-4 pr-6 py-2.5 hover:opacity-90 transition-opacity">
           <img src="<?php echo esc_url(get_template_directory_uri() . '/images/corporate-icon.svg'); ?>" alt="" class="size-8">
           <span class="flex flex-col leading-tight">
             <span class="text-[#464646] text-sm font-medium">京都WORKS LAB</span>

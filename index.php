@@ -1,7 +1,7 @@
 <?php
 /**
  * フォールバックテンプレート
- * トップページは front-page.php、無料相談フォームは template-apply*.php を使用します。
+ * トップページは front-page.php、無料相談フォームは template-entry*.php を使用します。
  * このファイルはそれ以外のURL（未設定の投稿・アーカイブ等）が呼ばれた場合の保険です。
  */
 if (!defined('ABSPATH')) {

@@ -19,7 +19,7 @@
           <p>京都の優良企業とあなたを、価値あるご縁で結びます。</p>
         </div>
       </div>
-      <a href="<?php echo $apply_url; ?>" class="w-full bg-brand text-cream text-base text-center tracking-wider px-10 py-4 hover:opacity-90 transition-opacity">
+      <a href="<?php echo $entry_url; ?>" class="w-full bg-brand text-cream text-base text-center tracking-wider px-10 py-4 hover:opacity-90 transition-opacity">
         無料で相談する
       </a>
     </div>
@@ -43,7 +43,7 @@
           <p>求職者一人ひとりと向き合うことを大切に、</p>
           <p>京都の優良企業とあなたを、価値あるご縁で結びます。</p>
         </div>
-        <a href="<?php echo $apply_url; ?>" class="bg-brand text-cream text-lg tracking-wider px-10 py-4 w-fit hover:opacity-90 transition-opacity">
+        <a href="<?php echo $entry_url; ?>" class="bg-brand text-cream text-lg tracking-wider px-10 py-4 w-fit hover:opacity-90 transition-opacity">
           無料で相談する
         </a>
       </div>

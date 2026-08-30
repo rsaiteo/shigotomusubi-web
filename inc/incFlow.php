@@ -1,6 +1,6 @@
 <!-- ============ FLOW ============ -->
 <section id="flow" class="relative bg-paper py-16 md:py-20 overflow-hidden">
-  <img src="<?php echo esc_url($img . 'flow-line.svg'); ?>" alt="" class="absolute right-[-7%] top-[44%] w-[110%] h-auto pointer-events-none hidden md:block">
+  <img src="<?php echo esc_url($img . 'flow-line.svg'); ?>" alt="" class="absolute top-[44%] w-[110%] h-auto pointer-events-none hidden md:block">
   <div class="relative max-w-[1024px] mx-auto px-5 flex flex-col items-center gap-3 text-center mb-10 md:mb-14">
     <p class="font-roboto font-light text-brand text-sm md:text-base tracking-[0.1em]">Flow</p>
     <p class="font-serif text-2xl md:text-4xl text-ink tracking-[0.08em]">ご縁を結ぶまでの流れ</p>
@@ -10,7 +10,7 @@
     </div>
   </div>
 
-  <div class="relative max-w-[1280px] mx-auto px-5">
+  <div class="relative mx-auto px-5 md:px-0">
     <div id="flowTrack" class="flex gap-5 overflow-x-auto no-scrollbar scroll-smooth pb-4 snap-x snap-mandatory px-3 md:px-[calc(50%-160px)]">
       <div class="flow-card transition-all duration-300 ease-out bg-[#f5f0e8]/80 shrink-0 snap-center w-[calc(100vw-64px)] max-w-[380px] md:w-[320px] md:max-w-none flex flex-col gap-9 p-9">
         <div class="flex items-center justify-between text-brand font-roboto font-light tracking-wide">
@@ -24,7 +24,7 @@
             <p class="font-sans text-sm text-ink leading-[1.8]">まずはお気軽にご相談ください。サポーターがあなたの想いや価値観をじっくりお聞きします。</p>
           </div>
         </div>
-        <a href="<?php echo $apply_url; ?>" class="bg-brand text-cream text-sm text-center tracking-wide py-3.5 rounded-[3px] hover:opacity-90 transition-opacity">無料で相談する</a>
+        <a href="<?php echo $entry_url; ?>" class="bg-brand text-cream text-sm text-center tracking-wide py-3.5 rounded-[3px] hover:opacity-90 transition-opacity">無料で相談する</a>
       </div>
 
       <div class="flow-card transition-all duration-300 ease-out bg-[#f5f0e8]/80 shrink-0 snap-center w-[calc(100vw-64px)] max-w-[380px] md:w-[320px] md:max-w-none flex flex-col gap-11 p-9 self-center">

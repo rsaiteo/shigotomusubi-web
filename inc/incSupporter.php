@@ -1,13 +1,13 @@
 <!-- ============ SUPPORTER ============ -->
 <section id="supporter" class="bg-[#f5f0e8] py-16 md:py-20 px-5">
-  <div class="max-w-[1146px] mx-auto flex flex-col items-center gap-10 md:gap-8">
+  <div class="max-w-[1146px] mx-auto flex flex-col items-center gap-10 md:gap-12">
     <div class="flex flex-col items-center gap-2 text-center font-serif tracking-[0.1em] leading-[1.8]">
       <p class="text-lg md:text-4xl text-ink">大手人事役員 × 現役採用担当 × 国家資格</p>
       <p class="text-base md:text-3xl text-brand">採用を知り尽くしたプロが転職のアドバイス</p>
     </div>
 
-    <div class="w-full flex flex-col lg:flex-row items-start gap-10 lg:gap-6">
-      <div class="flex-1 grid grid-cols-[auto_1fr] gap-x-4 md:gap-x-6 gap-y-3 md:gap-y-0 items-start [grid-template-areas:'photo_name'_'bio_bio'] md:[grid-template-areas:'photo_name'_'photo_bio']">
+    <div class="w-full flex flex-col lg:flex-row items-start gap-10 lg:gap-10">
+      <div class="flex-1 grid grid-cols-[auto_1fr] gap-x-4 md:gap-x-6 gap-y-3 md:gap-y-0 items-center [grid-template-areas:'photo_name'_'bio_bio'] md:[grid-template-areas:'photo_name'_'photo_bio']">
         <img src="<?php echo esc_url($img . 'supporter-01.jpg'); ?>" alt="是枝 秀紀" class="[grid-area:photo] w-24 md:w-60 h-auto md:h-[365px] object-cover shrink-0">
         <div class="[grid-area:name] flex flex-col gap-1 self-center md:self-auto">
           <p class="font-serif text-lg md:text-2xl text-ink tracking-wide">是枝 秀紀</p>
@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="flex-1 grid grid-cols-[auto_1fr] gap-x-4 md:gap-x-6 gap-y-3 md:gap-y-0 items-start [grid-template-areas:'photo_name'_'bio_bio'] md:[grid-template-areas:'photo_name'_'photo_bio']">
+      <div class="flex-1 grid grid-cols-[auto_1fr] gap-x-4 md:gap-x-6 gap-y-3 md:gap-y-0 items-center [grid-template-areas:'photo_name'_'bio_bio'] md:[grid-template-areas:'photo_name'_'photo_bio']">
         <img src="<?php echo esc_url($img . 'supporter-02.jpg'); ?>" alt="山内 綾" class="[grid-area:photo] w-24 md:w-60 h-auto md:h-[365px] object-cover shrink-0">
         <div class="[grid-area:name] flex flex-col gap-1 self-center md:self-auto">
           <span class="inline-block border border-brand text-brand text-[10px] md:text-xs font-bold px-1.5 py-1 w-fit">国家資格キャリアコンサルタント</span>

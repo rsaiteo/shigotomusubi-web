@@ -36,7 +36,7 @@
     </div>
 
     <p class="font-serif text-xl md:text-3xl text-ink tracking-wide">まずはご相談ください！</p>
-    <a href="<?php echo $apply_url; ?>" class="bg-brand text-cream text-base md:text-lg tracking-wider px-10 py-4 whitespace-nowrap hover:opacity-90 transition-opacity">
+    <a href="<?php echo $entry_url; ?>" class="bg-brand text-cream text-base md:text-lg tracking-wider px-10 py-4 whitespace-nowrap hover:opacity-90 transition-opacity">
       無料で相談する
     </a>
   </div>

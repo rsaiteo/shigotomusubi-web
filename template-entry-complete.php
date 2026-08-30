@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: 無料相談申し込み(完了)
- * Description: 固定ページ「apply」の子ページ「complete」に割り当ててください。
+ * Description: 固定ページ「entry」の子ページ「complete」に割り当ててください。
  */
 if (!defined('ABSPATH')) {
     exit;
@@ -12,7 +12,7 @@ $shigotomusubi_meta_description = '京都しごとむすびへの無料相談の
 get_header();
 ?>
 <div class="pt-16">
-  <section id="applyComplete" class="px-5 py-24 md:py-32">
+  <section id="entryComplete" class="px-5 py-24 md:py-32">
     <div class="max-w-[600px] mx-auto flex flex-col items-center gap-10 text-center">
       <?php get_template_part('template-parts/form-steps', null, array('current_step' => 3)); ?>
 
