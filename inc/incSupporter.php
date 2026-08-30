@@ -1,5 +1,5 @@
 <!-- ============ SUPPORTER ============ -->
-<section id="supporter" class="bg-[#f5f0e8] py-16 md:py-20 px-5">
+<section id="supporter" class="scroll-mt-16 bg-[#f5f0e8] py-16 md:py-20 px-5">
   <div class="max-w-[1146px] mx-auto flex flex-col items-center gap-10 md:gap-12">
     <div class="flex flex-col items-center gap-2 text-center font-serif tracking-[0.1em] leading-[1.8]">
       <p class="text-lg md:text-4xl text-ink">大手人事役員 × 現役採用担当 × 国家資格</p>

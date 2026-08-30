@@ -1,5 +1,5 @@
 <!-- ============ PROMISE ============ -->
-<section id="promise" class="bg-beigelight pt-16 md:pt-[60px] pb-16 md:pb-[100px] px-5">
+<section id="promise" class="scroll-mt-16 bg-beigelight pt-16 md:pt-[60px] pb-16 md:pb-[100px] px-5">
   <div class="max-w-[1024px] mx-auto flex flex-col items-center gap-3 text-center mb-10 md:mb-[60px]">
     <p class="font-yu font-medium text-xl md:text-3xl text-body tracking-wide">京都しごとむすびは、</p>
     <p class="font-serif font-medium text-2xl md:text-4xl text-ink tracking-wide highlight-mark">「京都の優良企業だけ」</p>

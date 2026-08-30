@@ -4,6 +4,7 @@ module.exports = {
     "./*.php",
     "./inc/**/*.php",
     "./template-parts/**/*.php",
+    "./js/**/*.js",
   ],
   // Contact Form 7 のフォーム内容(DB管理でスキャン対象外)で使っているクラス
   safelist: [

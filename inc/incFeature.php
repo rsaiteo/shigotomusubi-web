@@ -1,5 +1,5 @@
 <!-- ============ FEATURE ============ -->
-<section id="feature" class="relative bg-[#f5f0e8] pt-16 md:pt-[100px] pb-16 md:pb-[80px] px-5 overflow-hidden">
+<section id="feature" class="scroll-mt-16 relative bg-[#f5f0e8] pt-16 md:pt-[100px] pb-16 md:pb-[80px] px-5 overflow-hidden">
   <img src="<?php echo esc_url($img . 'feature-line.svg'); ?>" alt="" class="absolute right-0 top-8 w-[40%] max-w-[600px] h-auto pointer-events-none opacity-70 hidden md:block">
   <div class="relative max-w-[1024px] mx-auto flex flex-col items-center gap-8 md:gap-8">
     <div class="flex flex-col items-center gap-2 text-center">

@@ -1,5 +1,5 @@
 <!-- ============ FLOW ============ -->
-<section id="flow" class="relative bg-paper py-16 md:py-20 overflow-hidden">
+<section id="flow" class="scroll-mt-16 relative bg-paper py-16 md:py-20 overflow-hidden">
   <img src="<?php echo esc_url($img . 'flow-line.svg'); ?>" alt="" class="absolute top-[44%] w-[110%] h-auto pointer-events-none hidden md:block">
   <div class="relative max-w-[1024px] mx-auto px-5 flex flex-col items-center gap-3 text-center mb-10 md:mb-14">
     <p class="font-roboto font-light text-brand text-sm md:text-base tracking-[0.1em]">Flow</p>
