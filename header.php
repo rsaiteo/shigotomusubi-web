@@ -20,6 +20,15 @@ global $wp;
   gtag('config', 'G-4M3WGZEZGR');
 </script>
 
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yar67vzs21");
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/images/logo-mark.svg'); ?>">
@@ -30,6 +39,11 @@ global $wp;
 <meta property="og:description" content="<?php echo esc_attr(shigotomusubi_meta_description()); ?>">
 <meta property="og:url" content="<?php echo esc_url(home_url($wp->request)); ?>">
 <meta property="og:image" content="<?php echo esc_url(shigotomusubi_og_image()); ?>">
+<?php if (!has_post_thumbnail()): ?>
+<meta property="og:image:width" content="2400">
+<meta property="og:image:height" content="1260">
+<meta property="og:image:type" content="image/webp">
+<?php endif; ?>
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">

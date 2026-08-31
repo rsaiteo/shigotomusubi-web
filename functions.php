@@ -66,5 +66,5 @@ function shigotomusubi_og_image() {
     if (has_post_thumbnail()) {
         return get_the_post_thumbnail_url(null, 'large');
     }
-    return get_template_directory_uri() . '/images/hero-visual.jpg';
+    return get_template_directory_uri() . '/images/ogp.webp';
 }

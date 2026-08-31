@@ -16,7 +16,7 @@
         <img src="<?php echo esc_url($img . 'worry-01.png'); ?>" alt="" class="w-[140px] md:w-[180px] h-auto shrink-0">
         <div class="flex flex-col items-center sm:items-start gap-2 text-center sm:text-left">
           <p class="font-sans font-medium text-brand tracking-wide text-base md:text-2xl">就活中の学生さん</p>
-          <p class="font-yu font-bold text-base md:text-2xl text-body tracking-wide">転職を考えているが、どうしたらいいかわからない。</p>
+          <p class="font-yu font-bold text-base md:text-2xl text-body tracking-wide">京都での就職を考えているが、どう探したらいいか分からない</p>
         </div>
       </div>
       <div class="bg-card shadow-[0_1px_1px_rgba(0,0,0,0.05)] flex flex-col sm:flex-row items-center gap-4 md:gap-6 p-6 md:p-8">

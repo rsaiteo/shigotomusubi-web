@@ -1,7 +1,7 @@
 <!-- ============ ENTRY CTA ============ -->
 <section id="entry" class="relative py-16 md:py-20 px-5 overflow-hidden">
   <div class="absolute inset-0 bg-white"></div>
-  <img src="<?php echo esc_url($img . 'cta-bg.jpg'); ?>" alt="" class="absolute inset-0 w-full h-full object-cover opacity-60">
+  <img src="<?php echo esc_url($img . 'cta-bg.webp'); ?>" alt="" class="absolute inset-0 w-full h-full object-cover opacity-60">
   <img src="<?php echo esc_url($img . 'cta-line.svg'); ?>" alt="" class="absolute left-[-7%] top-[2%] w-[80%] h-auto pointer-events-none opacity-80 hidden md:block">
   <div class="relative max-w-[1024px] mx-auto bg-white/60 px-6 sm:px-10 md:px-[60px] py-10 md:py-[60px] flex flex-col md:flex-row items-center justify-between gap-8">
     <div class="flex flex-col items-center md:items-start gap-4 md:gap-6 text-center md:text-left">

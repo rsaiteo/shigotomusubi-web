@@ -13,7 +13,7 @@
           <span class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[30deg] w-12 aspect-[40/56] rounded-full bg-[#ECD3C5] opacity-60 pointer-events-none"></span>
           <span class="relative font-roboto font-light text-brand text-sm tracking-[0.1em]">01</span>
         </span>
-        <img src="<?php echo esc_url($img . 'feature-01.jpg'); ?>" alt="無料個別相談の様子" class="md:order-2 w-full md:w-[386px] h-44 md:h-[311px] object-cover shrink-0">
+        <img src="<?php echo esc_url($img . 'feature-01.webp'); ?>" alt="無料個別相談の様子" class="md:order-2 w-full md:w-[386px] h-44 md:h-[311px] object-cover shrink-0">
         <div class="flex-1 flex flex-col gap-4 md:gap-10 md:order-1">
           <span class="hidden md:inline-flex relative items-center justify-center w-fit">
             <span class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[30deg] w-14 aspect-[40/56] rounded-full bg-[#ECD3C5] opacity-60 pointer-events-none"></span>
